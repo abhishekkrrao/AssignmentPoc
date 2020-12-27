@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Collegedunia.iml" filepath="$PROJECT_DIR$/.idea/modules/Collegedunia.iml" group="Collegedunia" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Collegedunia/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2017092330/react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-2017092330/react-native-community_masked-view.iml" group="Collegedunia/react-native-community_masked-view" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/123409537/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/123409537/react-native-gesture-handler.iml" group="Collegedunia/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-984766159/react-native-get-location.iml" filepath="$PROJECT_DIR$/.idea/modules/-984766159/react-native-get-location.iml" group="Collegedunia/react-native-get-location" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-784532229/react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-784532229/react-native-reanimated.iml" group="Collegedunia/react-native-reanimated" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1011150678/react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-1011150678/react-native-safe-area-context.iml" group="Collegedunia/react-native-safe-area-context" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-888578750/react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-888578750/react-native-screens.iml" group="Collegedunia/react-native-screens" />
+    </modules>
+  </component>
+</project>

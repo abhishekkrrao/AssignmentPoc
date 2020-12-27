@@ -1,0 +1,4 @@
+#Fri Dec 25 15:37:57 IST 2020
+base.0=/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

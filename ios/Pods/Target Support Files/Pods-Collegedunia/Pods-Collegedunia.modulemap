@@ -1,0 +1,6 @@
+module Pods_Collegedunia {
+  umbrella header "Pods-Collegedunia-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,75 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.collegedunia"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:3:5-78
+12-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:3:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:4:5-80
+13-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:4:22-78
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:5:5-67
+14-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:5:22-64
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.54.0] /Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.54.0] /Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:22-73
+16
+17    <application
+17-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:7:5-26:19
+18        android:name="com.collegedunia.MainApplication"
+18-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:8:7-38
+19        android:allowBackup="false"
+19-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:12:7-34
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] /Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:10:7-41
+23        android:label="@string/app_name"
+23-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:9:7-39
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:11:7-52
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme"
+26-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:13:7-38
+27        android:usesCleartextTraffic="true" >
+27-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/debug/AndroidManifest.xml:7:18-53
+28        <activity
+28-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:14:7-24:18
+29            android:name="com.collegedunia.MainActivity"
+29-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:15:9-37
+30            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+30-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:17:9-86
+31            android:label="@string/app_name"
+31-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:16:9-41
+32            android:launchMode="singleTask"
+32-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:18:9-40
+33            android:windowSoftInputMode="adjustResize" >
+33-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:19:9-51
+34            <intent-filter>
+34-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:20:9-23:25
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:21:13-65
+35-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:21:21-62
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:22:13-73
+37-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:22:23-70
+38            </intent-filter>
+39        </activity>
+40        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+40-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:25:7-84
+40-->/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:25:17-81
+41    </application>
+42
+43</manifest>
