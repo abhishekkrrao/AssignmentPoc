@@ -1,4 +1,4 @@
-import React,{ Component } from 'react';
+import React,{ Component,useReducer,useState,useRef,useEffect,useContext } from 'react';
 import { View,TouchableOpacity,Image,Text,FlatList } from 'react-native';
 import Video from 'react-native-video';
 import ToolBar from '../../Component/ToolBar'
@@ -15,6 +15,23 @@ class PlayList extends Component {
         { video: "https://content.jwplatform.com/manifests/yp34SRmf.m3u8",title: "Play 2" },
         { video: "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",title: "Play 3" }];
         this.setState({ list: list },() => { });
+         this.saveData(list);
+        this.setChecked();
+    }
+    saveData = (data) => {
+        try {
+            window.localStorage.setItem("user",JSON.stringify(data));
+        } catch (error) {
+            console.log("error ",error)
+        }
+    }
+    setChecked() {
+      try {
+        let data =  window.localStorage.getItem("user");
+        console.log("datafromLocale ",data)
+      } catch (error) {
+          
+      }
     }
 
     render() {
@@ -35,7 +52,6 @@ class PlayList extends Component {
             </View>
         );
     }
-
     singleItem = (item,index) => {
         return (
             <TouchableOpacity
@@ -50,10 +66,10 @@ class PlayList extends Component {
                 <View
                     style={{
                         flexDirection: "row",marginLeft: 5
-                        ,marginTop:10
+                        ,marginTop: 10
                     }}>
                     <Video
-                        style={{ height:96 ,width:96}}
+                        style={{ height: 96,width: 96 }}
                         source={{ uri: item.video }}
                         controls={false}
                         muted={true}

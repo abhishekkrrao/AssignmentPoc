@@ -81,7 +81,7 @@ class HomePage extends Component {
                     justifyContent: "center",width: width / 5.6,marginEnd: 5,height: 70
                 }}
                 onPress={() => {
-                    this.props.navigation.navigate('VideoPlayer')
+                    this.props.navigation.navigate('PlayList')
                 }}>
                 <View
                     style={{

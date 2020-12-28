@@ -8,7 +8,11 @@ class VideoPlayer extends React.Component {
         super(props)
         this.state = {
             video: undefined,
-            isloading: false
+            isloading: false,
+            v1: "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8",
+            v2: "https://content.jwplatform.com/manifests/yp34SRmf.m3u8",
+            v3: "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
+
         }
     }
     render() {
@@ -17,11 +21,47 @@ class VideoPlayer extends React.Component {
             style={{flex:1,backgroundColor: "#000"}}>
                 <ToolBar  style={{backgroundColor:"#4ba3c7"}} title="Video Player"></ToolBar>
                 <View style={{ flex: 1,justifyContent: "center" }}>
-
-                    {this.state.video &&
-
+                    {this.state.v1 &&
                         <Video
-                            source={{ uri: this.state.video }}
+                            source={{ uri: this.state.v1 }}
+                            ref={(ref) => {
+                                this.player = ref
+                            }}
+                            onBuffer={this.onBuffer}
+                            onError={this.videoError}
+                            onProgress={this.onProgress}
+                            controls={true}
+                            paused={false}
+                            onEnd={this.onEnd}
+                            fullscreen={false}
+                            resizeMode="contain"
+                            style={styles.backgroundVideo} />}
+
+                </View>
+
+                <View style={{ flex: 1,justifyContent: "center" }}>
+                    {this.state.v1 &&
+                        <Video
+                            source={{ uri: this.state.v2 }}
+                            ref={(ref) => {
+                                this.player = ref
+                            }}
+                            onBuffer={this.onBuffer}
+                            onError={this.videoError}
+                            onProgress={this.onProgress}
+                            controls={true}
+                            paused={false}
+                            onEnd={this.onEnd}
+                            fullscreen={false}
+                            resizeMode="contain"
+                            style={styles.backgroundVideo} />}
+
+                </View>
+
+                <View style={{ flex: 1,justifyContent: "center" }}>
+                    {this.state.v1 &&
+                        <Video
+                            source={{ uri: this.state.v3 }}
                             ref={(ref) => {
                                 this.player = ref
                             }}
@@ -40,13 +80,13 @@ class VideoPlayer extends React.Component {
         );
     }
     componentDidMount() {
-        const { params } = this.props.navigation.state;
-        console.log(params.item);
-        if (params && params.item) {
-            this.setState({
-                video: params.item.video
-            },() => { });
-        }
+        // const { params } = this.props.navigation.state;
+        // console.log(params.item);
+        // if (params && params.item) {
+        //     this.setState({
+        //         video: params.item.video
+        //     },() => { });
+        // }
     }
     videoError = (issue) => {
         console.log("issue ",issue)

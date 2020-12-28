@@ -1,4 +1,4 @@
-import React,{ Component } from 'react';
+import React,{ Component ,useState,useEffect} from 'react';
 import { View,StyleSheet,Text,Image,TouchableOpacity,Platform,Dimensions } from 'react-native'
 import { withNavigation } from 'react-navigation'
 import assets from '../assets/index'

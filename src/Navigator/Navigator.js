@@ -20,7 +20,7 @@ export default class Navigator extends React.Component {
     }
     componentDidMount() {
         Platform.OS == "android" ? StatusBar.setBackgroundColor("#4ba3c7") : "",
-            setTimeout(() => { this.lounchApp('PlayList'); },2000);
+            setTimeout(() => { this.lounchApp('VideoPlayer'); },2000);
     }
     lounchApp = (initialRouteName) => {
         const resetAction = StackActions.reset({
