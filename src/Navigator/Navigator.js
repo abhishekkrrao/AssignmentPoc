@@ -1,5 +1,5 @@
 import React,{ Component } from "react";
-import { Loading,HomePage,VideoPlayer } from '../screens'
+import { Loading,HomePage,VideoPlayer,PlayList } from '../screens'
 import { createStackNavigator } from 'react-navigation-stack';
 import { createAppContainer,StackActions,NavigationActions } from 'react-navigation';
 import { StatusBar,Platform } from "react-native";
@@ -7,7 +7,8 @@ console.disableYellowBox = true;
 const AppNavigator = createStackNavigator({
     Loading: { screen: Loading },
     HomePage: { screen: HomePage },
-    VideoPlayer: { screen: VideoPlayer }
+    VideoPlayer: { screen: VideoPlayer },
+    PlayList: { screen: PlayList }
 },{
     headerMode: 'none'
 });
@@ -19,7 +20,7 @@ export default class Navigator extends React.Component {
     }
     componentDidMount() {
         Platform.OS == "android" ? StatusBar.setBackgroundColor("#4ba3c7") : "",
-            setTimeout(() => { this.lounchApp('VideoPlayer'); },2000);
+            setTimeout(() => { this.lounchApp('PlayList'); },2000);
     }
     lounchApp = (initialRouteName) => {
         const resetAction = StackActions.reset({
