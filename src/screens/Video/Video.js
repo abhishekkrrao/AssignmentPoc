@@ -1,34 +1,35 @@
 import React,{ Component } from 'react';
 import { View,StyleSheet,Button } from 'react-native'
 import Video from 'react-native-video';
+import Loading from '../Loading/Loading'
+import ToolBar from '../../Component/ToolBar'
 class VideoPlayer extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            video: "",
+            video: undefined,
             isloading: false
         }
     }
     render() {
         return (
-            <View style={{ flex: 1 }}>
-
-
-
-                <Video
+            <View style={{ flex: 1,backgroundColor: "#000" }}>
+                 <ToolBar title={"Player"}></ToolBar>
+                {this.state.video && <Video
                     source={{ uri: this.state.video }}
                     ref={(ref) => {
                         this.player = ref
                     }}
                     onBuffer={this.onBuffer}
                     onError={this.videoError}
+                    onProgress={this.onProgress}
                     controls={true}
                     paused={false}
+                    onEnd={this.onEnd}
                     fullscreen={false}
                     resizeMode="cover"
-                    style={styles.backgroundVideo} />
-
-
+                    style={styles.backgroundVideo} />}
+               
             </View>
         );
     }
@@ -37,7 +38,7 @@ class VideoPlayer extends React.Component {
         console.log(params.item);
         if (params && params.item) {
             this.setState({
-                video:params.item.video
+                video: params.item.video
             },() => { });
         }
     }
@@ -46,6 +47,15 @@ class VideoPlayer extends React.Component {
     }
     onBuffer = (buffering) => {
         // console.log("buffering ",buffering)
+    }
+    onBuffer = (buffering) => {
+        // console.log("buffering ",buffering)
+    }
+    onProgress = (data) => {
+        //  console.log("data ",data)
+    }
+    onEnd(){
+        // this.props.navigation.goBack();
     }
 }
 var styles = StyleSheet.create({

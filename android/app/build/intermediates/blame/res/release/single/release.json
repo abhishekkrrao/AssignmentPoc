@@ -2056,6 +2056,10 @@
         "source": "/Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml"
     },
     {
+        "merged": "/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_image_back.png.flat",
+        "source": "/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_image_back.png"
+    },
+    {
         "merged": "/Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/build/intermediates/res/merged/release/color-v23_abc_tint_spinner.xml.flat",
         "source": "/Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/color-v23/abc_tint_spinner.xml"
     },

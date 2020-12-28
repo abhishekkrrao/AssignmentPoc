@@ -7,9 +7,11 @@ INJECTED from /Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/mai
 MERGED from [:react-native-community_masked-view] /Users/abhishekqrao/Documents/Poc/Collegedunia/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] /Users/abhishekqrao/Documents/Poc/Collegedunia/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-get-location] /Users/abhishekqrao/Documents/Poc/Collegedunia/node_modules/react-native-get-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-permissions] /Users/abhishekqrao/Documents/Poc/Collegedunia/node_modules/react-native-permissions/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-reanimated] /Users/abhishekqrao/Documents/Poc/Collegedunia/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] /Users/abhishekqrao/Documents/Poc/Collegedunia/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /Users/abhishekqrao/Documents/Poc/Collegedunia/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-video] /Users/abhishekqrao/Documents/Poc/Collegedunia/node_modules/react-native-video/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.63.4] /Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/4f9e791d55e38e328cfe1bdfb863a57d/jetified-react-native-0.63.4/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r245459] /Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
@@ -48,6 +50,7 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/abhishekqrao/.gradle/c
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/4da6ddd3c71dbaec92b0fdf3bbca4ce7/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/2ef959591ee3dfd7e7d0f130ebacb270/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/babedcb26ba2505096ea9fb87ec93180/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/bd8ebef757fdeb38c17597d1b44e6a41/jetified-android-scalablevideoview-1.0.4/AndroidManifest.xml:2:1-12:12
 MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/a7fd5473c4dc9ae2a7ee01310b5f6b62/jetified-fbcore-2.0.0/AndroidManifest.xml:2:1-9:12
 INJECTED from /Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:1:1-28:12
 INJECTED from /Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml:1:1-28:12
@@ -142,12 +145,16 @@ MERGED from [:react-native-gesture-handler] /Users/abhishekqrao/Documents/Poc/Co
 MERGED from [:react-native-gesture-handler] /Users/abhishekqrao/Documents/Poc/Collegedunia/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-get-location] /Users/abhishekqrao/Documents/Poc/Collegedunia/node_modules/react-native-get-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-get-location] /Users/abhishekqrao/Documents/Poc/Collegedunia/node_modules/react-native-get-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-permissions] /Users/abhishekqrao/Documents/Poc/Collegedunia/node_modules/react-native-permissions/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-permissions] /Users/abhishekqrao/Documents/Poc/Collegedunia/node_modules/react-native-permissions/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-reanimated] /Users/abhishekqrao/Documents/Poc/Collegedunia/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] /Users/abhishekqrao/Documents/Poc/Collegedunia/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-safe-area-context] /Users/abhishekqrao/Documents/Poc/Collegedunia/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] /Users/abhishekqrao/Documents/Poc/Collegedunia/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /Users/abhishekqrao/Documents/Poc/Collegedunia/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] /Users/abhishekqrao/Documents/Poc/Collegedunia/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-video] /Users/abhishekqrao/Documents/Poc/Collegedunia/node_modules/react-native-video/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-video] /Users/abhishekqrao/Documents/Poc/Collegedunia/node_modules/react-native-video/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.4] /Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/4f9e791d55e38e328cfe1bdfb863a57d/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.4] /Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/4f9e791d55e38e328cfe1bdfb863a57d/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
@@ -224,6 +231,8 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/abhishekqr
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/2ef959591ee3dfd7e7d0f130ebacb270/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/babedcb26ba2505096ea9fb87ec93180/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/babedcb26ba2505096ea9fb87ec93180/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/bd8ebef757fdeb38c17597d1b44e6a41/jetified-android-scalablevideoview-1.0.4/AndroidManifest.xml:8:5-10:41
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/bd8ebef757fdeb38c17597d1b44e6a41/jetified-android-scalablevideoview-1.0.4/AndroidManifest.xml:8:5-10:41
 MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/a7fd5473c4dc9ae2a7ee01310b5f6b62/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/a7fd5473c4dc9ae2a7ee01310b5f6b62/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
 INJECTED from /Users/abhishekqrao/Documents/Poc/Collegedunia/android/app/src/main/AndroidManifest.xml

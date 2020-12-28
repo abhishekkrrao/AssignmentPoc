@@ -23,6 +23,23 @@
                     }
                 },
                 {
+                    "source": "/Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/bd8ebef757fdeb38c17597d1b44e6a41/jetified-android-scalablevideoview-1.0.4/res/values/values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "1028",
+                        "endOffsets": "1079"
+                    },
+                    "to": {
+                        "startLines": "7321",
+                        "startColumns": "4",
+                        "startOffsets": "452190",
+                        "endColumns": "1028",
+                        "endOffsets": "453214"
+                    }
+                },
+                {
                     "source": "/Users/abhishekqrao/.gradle/caches/transforms-2/files-2.1/820068d4be612586a05a9daff9be7b77/transition-1.2.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",

@@ -1,6 +1,7 @@
 import React,{ Component } from 'react';
 import { View,TouchableOpacity,Image,Text,FlatList } from 'react-native';
 import Video from 'react-native-video';
+import ToolBar from '../../Component/ToolBar'
 class PlayList extends Component {
     constructor(props) {
         super(props)
@@ -19,9 +20,10 @@ class PlayList extends Component {
     render() {
         return (
             <View style={{ flex: 1 }}>
+                <ToolBar title=""></ToolBar>
                 <FlatList
                     horizontal={false}
-                    style={{   flex: 1 ,marginTop:55 }}
+                    style={{ flex: 1,marginTop: 2 }}
                     numColumns={1}
                     extraData={this.state}
                     data={this.state.list}
@@ -38,11 +40,15 @@ class PlayList extends Component {
         return (
             <TouchableOpacity
                 onPress={() => {
-                    this.props.navigation.navigate('VideoPlayer',{item:item})
+                    this.props.navigation.navigate('VideoPlayer',{ item: item })
                 }}
-                style={{ height: 120,backgroundColor: "#fff",marginTop:5,justifyContent: "center" }}>
+                style={{
+                    height: 120,backgroundColor: "#fff",
+                    marginTop: 5,justifyContent: "center",
+                    marginEnd: 5,marginLeft: 5,borderRadius: 5
+                }}>
                 <View
-                    style={{ flexDirection: "row",marginLeft:5 }}>
+                    style={{ flexDirection: "row",marginLeft: 5 }}>
                     <Video
                         style={{ width: 160,height: 160 }}
                         source={{ uri: item.video }}
@@ -50,7 +56,7 @@ class PlayList extends Component {
                         paused={true}
                     />
                     <Text
-                        style={{ color: "#000" ,alignSelf:"center",marginLeft:55}}
+                        style={{ color: "#000",alignSelf: "center",marginLeft: 55 }}
                     >{item.title}</Text>
                 </View>
             </TouchableOpacity>
