@@ -20,7 +20,7 @@ class PlayList extends Component {
     render() {
         return (
             <View style={{ flex: 1 }}>
-                <ToolBar title=""></ToolBar>
+                <ToolBar style={{ backgroundColor: "#4ba3c7" }} title="Play List"></ToolBar>
                 <FlatList
                     horizontal={false}
                     style={{ flex: 1,marginTop: 2 }}
@@ -48,12 +48,15 @@ class PlayList extends Component {
                     marginEnd: 5,marginLeft: 5,borderRadius: 5
                 }}>
                 <View
-                    style={{ flexDirection: "row",marginLeft: 5 }}>
+                    style={{
+                        flexDirection: "row",marginLeft: 5
+                        ,marginTop:10
+                    }}>
                     <Video
-                        style={{ width: 160,height: 160 }}
+                        style={{ height:96 ,width:96}}
                         source={{ uri: item.video }}
                         controls={false}
-                        paused={true}
+                        muted={true}
                     />
                     <Text
                         style={{ color: "#000",alignSelf: "center",marginLeft: 55 }}

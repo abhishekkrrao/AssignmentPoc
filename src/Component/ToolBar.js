@@ -18,6 +18,8 @@ class ToolBar extends Component {
                 {rightButtonComponent &&
                     <View
                         style={styles.rightButtonView}>{rightButtonComponent}</View>}
+                        {title && <Text
+                        style={[styles.headerTitleTexts]}>{title}</Text>}
             </View>
         );
     }
@@ -26,9 +28,9 @@ class ToolBar extends Component {
             return (<TouchableOpacity onPress={{}}>
             </TouchableOpacity>)
         } else {
-            return (<Image
-                source={assets.images.back} resizeMode='contain'
-                style={styles.backIcon} />);
+            // return (<Image
+            //     source={assets.images.back} resizeMode='contain'
+            //     style={styles.backIcon} />);
         }
     }
 }
@@ -38,7 +40,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: "#01579b",
+        backgroundColor: "transparent",
         zIndex: 1
     },
     headerTitleTexts: {
